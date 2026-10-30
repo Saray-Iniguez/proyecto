@@ -1,5 +1,5 @@
-from feature.userfnc import ask_name
+from feature.userfnc import get_name
 
 if __name__ == "__main__":
-	name = ask_name()
+	name = get_name()
 	print(name)
